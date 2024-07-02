@@ -1,6 +1,6 @@
-def aval (x) :
-    for i in range(1,x):
+def aval (x, y): 
+    for i in range(x,y):
         if i % 2 == 0:
             print(i)
 
-print(aval(1111))
+print(aval(665,55778))
